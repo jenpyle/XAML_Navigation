@@ -4,11 +4,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" mc:Ignorable="d">
 
-    <StackPanel Margin="30,0">
-        <TextBlock Text="Page 1" />
-        <TextBlock x:ConnectionId='2' x:Name="txtPage1" Text="Hello" />
-        <Button x:ConnectionId='3' x:Name="BtnPage1" Margin="30"                        Content="Go to Page 2" />
-        <Button x:ConnectionId='4' x:Name="BackBtn" Background="Purple"                       Content="Back" />
+    <StackPanel Margin="30" VerticalAlignment="Top" Background="PeachPuff">
+        <StackPanel x:ConnectionId='2' x:Name="stkPanelList">
+            <Border BorderBrush="MediumVioletRed" BorderThickness="10">
+                <TextBlock x:ConnectionId='8' x:Name="TxtTitle" FontSize="24" Foreground="MediumVioletRed" Text="A very long text title!" />
+            </Border>
+            <TextBlock Text="Page 1" />
+            <TextBlock x:ConnectionId='3' x:Name="txtPage1" Text="Hello" />
+            <Button x:ConnectionId='4' x:Name="BtnPage1" Margin="30"                        Content="Go to Page 2" />
+            <Button x:ConnectionId='5' x:Name="Btn_HamburgerNav" Content="Go to hamburger menu"                                />
+            <Button x:ConnectionId='6' x:Name="BackBtn" Background="Purple"                       Content="Back" />
+            <Image x:ConnectionId='7' x:Name="Image_1" Width="400" Source="/Assets/Square150x150Logo.scale-200.png" Stretch="UniformToFill" />
+        </StackPanel>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:ConnectionId='9' x:Name="NarrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1000" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="TxtTitle.FontSize" Value="68" />
+                        <Setter Target="stkPanelList.Orientation" Value="Horizontal" />
+                        <Setter Target="Image_1.Width" Value="800" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
     </StackPanel>
 </Page>
 

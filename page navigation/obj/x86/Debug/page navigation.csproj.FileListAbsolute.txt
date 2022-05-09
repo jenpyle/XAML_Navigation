@@ -53,3 +53,13 @@ C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\Page3.
 C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\Page3.g.cs
 C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\Page3.xaml
 C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\Page3.xbf
+C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\RelativePanel.xbf
+C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\SplitView.xbf
+C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\RelativePanel.g.i.cs
+C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\RelativePanel.g.cs
+C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\SplitView.g.i.cs
+C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\SplitView.g.cs
+C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\RelativePanel.xaml
+C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\SplitView.xaml
+C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\RelativePanel.xbf
+C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\SplitView.xbf

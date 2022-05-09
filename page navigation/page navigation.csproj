@@ -130,6 +130,12 @@
     </Compile>
     <Compile Include="PageNav.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelativePanel.xaml.cs">
+      <DependentUpon>RelativePanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SplitView.xaml.cs">
+      <DependentUpon>SplitView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -160,6 +166,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RelativePanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SplitView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

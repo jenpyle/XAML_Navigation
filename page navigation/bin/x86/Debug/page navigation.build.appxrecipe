@@ -79,6 +79,12 @@
     <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\Page3.xbf">
       <PackagePath>Page3.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\RelativePanel.xbf">
+      <PackagePath>RelativePanel.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\SplitView.xbf">
+      <PackagePath>SplitView.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

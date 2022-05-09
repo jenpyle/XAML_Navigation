@@ -4,10 +4,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" mc:Ignorable="d">
 
-    <StackPanel Margin="30,0">
-        <TextBlock Text="Page 1" />
-        <TextBlock x:Name="txtPage1" Text="Hello" />
-        <Button x:Name="BtnPage1" Margin="30" Click="BtnPage1_Click" Content="Go to Page 2" />
-        <Button x:Name="BackBtn" Background="Purple" Click="BackBtn_Click" Content="Back" />
+    <StackPanel Margin="30" VerticalAlignment="Top" Background="PeachPuff">
+        <StackPanel x:Name="stkPanelList">
+            <Border BorderBrush="MediumVioletRed" BorderThickness="10">
+                <TextBlock x:Name="TxtTitle" FontSize="24" Foreground="MediumVioletRed" Text="A very long text title!" />
+            </Border>
+            <TextBlock Text="Page 1" />
+            <TextBlock x:Name="txtPage1" Text="Hello" />
+            <Button x:Name="BtnPage1" Margin="30" Click="BtnPage1_Click" Content="Go to Page 2" />
+            <Button x:Name="Btn_HamburgerNav" Content="Go to hamburger menu" Click="Btn_HamburgerNav_Click" />
+            <Button x:Name="BackBtn" Background="Purple" Click="BackBtn_Click" Content="Back" />
+            <Image x:Name="Image_1" Width="400" Source="/Assets/Square150x150Logo.scale-200.png" Stretch="UniformToFill" />
+        </StackPanel>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="NarrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1000" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="TxtTitle.FontSize" Value="68" />
+                        <Setter Target="stkPanelList.Orientation" Value="Horizontal" />
+                        <Setter Target="Image_1.Width" Value="800" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
     </StackPanel>
 </Page>

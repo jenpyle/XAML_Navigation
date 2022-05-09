@@ -27,8 +27,13 @@ namespace page_navigation
         }
 
         private void BackBtn_Click(object sender, RoutedEventArgs e)
+
         {
-            Frame.GoBack();
+            if (Frame.BackStack.Count > 1)
+            {
+
+                Frame.GoBack();
+            }
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -38,6 +43,11 @@ namespace page_navigation
 
 
 
+        }
+
+        private void Btn_HamburgerNav_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(SplitView));
         }
     }
 }

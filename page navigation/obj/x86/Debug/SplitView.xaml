@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="page_navigation.SplitView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:page_navigation"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+
+    <SplitView x:ConnectionId='2'
+        x:Name="SplitView_1"
+        CompactPaneLength="200"
+        DisplayMode="CompactOverlay"
+        IsPaneOpen="False"
+        OpenPaneLength="450">
+        <SplitView.Pane>
+            <StackPanel Background="LightGreen">
+                <Button x:ConnectionId='3'
+                    x:Name="BtmHamburger"
+                    Width="250"
+                    Height="250"
+                    Background="Transparent"
+                                              
+                    Content="&#xE133;"
+                    FontFamily="Segoe MDL2 Assets" />
+
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='5'
+                        x:Name="BtnHome"
+                        Width="250"
+                        Height="250"
+                        Background="Transparent"
+                                             
+                        Content="&#xE80F;"
+                        FontFamily="Segoe MDL2 Assets" />
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        Text="Home" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='4'
+                        x:Name="BtnHome2"
+                        Width="250"
+                        Height="250"
+                        Background="Transparent"
+                                              
+                        Content="&#xE80F;"
+                        FontFamily="Segoe MDL2 Assets" />
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        Text="Home2" />
+                </StackPanel>
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <Grid>
+                <TextBlock Text="Splitview control sample" />
+            </Grid>
+
+        </SplitView.Content>
+    </SplitView>
+</Page>
+
