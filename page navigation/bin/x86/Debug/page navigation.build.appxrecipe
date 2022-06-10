@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-JCOAR31</Machine>
-    <WindowsUser>jenny</WindowsUser>
+    <Machine>USAU4-H252VD3</Machine>
+    <WindowsUser>jennifer.pyle</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f75a5f69-e4c4-4774-b03c-db3228aca2fb</PackageIdentityName>
     <PackageIdentityPublisher>CN=jenny</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\page navigation.exe">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\page navigation.exe">
       <PackagePath>entrypoint\page navigation.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,64 +34,64 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\page navigation.xr.xml">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\page navigation.xr.xml">
       <PackagePath>page navigation.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\Page2.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\Page2.xbf">
       <PackagePath>Page2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\Page3.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\Page3.xbf">
       <PackagePath>Page3.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\RelativePanel.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\RelativePanel.xbf">
       <PackagePath>RelativePanel.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\SplitView.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\SplitView.xbf">
       <PackagePath>SplitView.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\Core\page navigation.exe">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\Core\page navigation.exe">
       <PackagePath>page navigation.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

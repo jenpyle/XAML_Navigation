@@ -1,4 +1,6 @@
-﻿using Windows.UI.Xaml;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
@@ -31,23 +33,52 @@ namespace page_navigation
         {
             if (Frame.BackStack.Count > 1)
             {
-
                 Frame.GoBack();
             }
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-
-
-
-
-
         }
 
         private void Btn_HamburgerNav_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(SplitView));
+        }
+
+        private List<string> Cats = new List<string>()
+            {
+                "Abyssinian",
+                "Aegean",
+                "American Bobtail"
+            };
+
+        // Handle text change and present suitable items
+        private void AutoSuggestBox_TextChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
+        {
+            // Since selecting an item will also change the text,
+            // only listen to changes caused by user entering text.
+            if (args.Reason == AutoSuggestionBoxTextChangeReason.UserInput)
+            {
+                var suitableItems = new List<string>();
+                var splitText = sender.Text.ToLower().Split(" ");
+                foreach (var cat in Cats)
+                {
+                    var found = splitText.All((key) =>
+                    {
+                        return cat.ToLower().Contains(key);
+                    });
+                    if (found)
+                    {
+                        suitableItems.Add(cat);
+                    }
+                }
+                if (suitableItems.Count == 0)
+                {
+                    suitableItems.Add("No results found");
+                }
+                sender.ItemsSource = suitableItems;
+            }
         }
     }
 }

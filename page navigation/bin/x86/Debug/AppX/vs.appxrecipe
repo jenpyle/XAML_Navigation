@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-JCOAR31</Machine>
-    <WindowsUser>jenny</WindowsUser>
+    <Machine>USAU4-H252VD3</Machine>
+    <WindowsUser>jennifer.pyle</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f75a5f69-e4c4-4774-b03c-db3228aca2fb</PackageIdentityName>
     <PackageIdentityPublisher>CN=jenny</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jenny\source\repos\page navigation\page navigation\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7FE2BF4DDA020B5DFE1415BA14B2F89CC428F8A8223131FE5C6A7E35CECDEB04</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>DE3FB4FD4A79A49B16C3A0B9F142B188629E2D95D30BB8D1ABF2FA711F78306D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f75a5f69-e4c4-4774-b03c-db3228aca2fb_1.0.0.0_x86__5rvpas65b0zxa</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f75a5f69-e4c4-4774-b03c-db3228aca2fb_5rvpas65b0zxa!App</RegisteredUserModeAppID>
     <RegisteredPackageID>f75a5f69-e4c4-4774-b03c-db3228aca2fb</RegisteredPackageID>
@@ -27,102 +27,102 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-09T01:09:21.438</Modified>
+      <Modified>2022-06-10T18:15:40.910</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\page navigation.exe">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\page navigation.exe">
       <PackagePath>entrypoint\page navigation.exe</PackagePath>
-      <Modified>2022-05-09T01:09:21.062</Modified>
+      <Modified>2022-06-10T18:15:38.713</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2021-02-05T08:15:46.000</Modified>
+      <Modified>2021-02-05T07:15:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T11:52:00.000</Modified>
+      <Modified>2020-12-02T10:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-03-28T00:58:36.410</Modified>
+      <Modified>2022-06-10T18:07:37.645</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-01-22T00:10:12.458</Modified>
+      <Modified>2022-06-10T18:07:37.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-22T00:10:12.458</Modified>
+      <Modified>2022-06-10T18:07:37.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-22T00:10:12.458</Modified>
+      <Modified>2022-06-10T18:07:37.629</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-22T00:10:12.458</Modified>
+      <Modified>2022-06-10T18:07:37.630</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-22T00:10:12.458</Modified>
+      <Modified>2022-06-10T18:07:37.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-22T00:10:12.458</Modified>
+      <Modified>2022-06-10T18:07:37.632</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-22T00:10:12.458</Modified>
+      <Modified>2022-06-10T18:07:37.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\page navigation.xr.xml">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\page navigation.xr.xml">
       <PackagePath>page navigation.xr.xml</PackagePath>
-      <Modified>2022-05-09T01:03:10.263</Modified>
+      <Modified>2022-06-10T18:14:57.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-09T01:09:20.995</Modified>
+      <Modified>2022-06-10T18:15:38.618</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-05-09T01:09:20.995</Modified>
+      <Modified>2022-06-10T18:15:38.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\Page2.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\Page2.xbf">
       <PackagePath>Page2.xbf</PackagePath>
-      <Modified>2022-05-09T01:09:20.995</Modified>
+      <Modified>2022-06-10T18:15:38.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\Page3.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\Page3.xbf">
       <PackagePath>Page3.xbf</PackagePath>
-      <Modified>2022-05-09T01:09:20.995</Modified>
+      <Modified>2022-06-10T18:15:38.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\RelativePanel.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\RelativePanel.xbf">
       <PackagePath>RelativePanel.xbf</PackagePath>
-      <Modified>2022-05-09T01:09:20.995</Modified>
+      <Modified>2022-06-10T18:15:38.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\SplitView.xbf">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\SplitView.xbf">
       <PackagePath>SplitView.xbf</PackagePath>
-      <Modified>2022-05-09T01:09:20.995</Modified>
+      <Modified>2022-06-10T18:15:38.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T09:52:06.000</Modified>
+      <Modified>2020-12-02T08:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-09T01:03:10.648</Modified>
+      <Modified>2022-06-10T18:15:39.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jenny\source\repos\page navigation\page navigation\bin\x86\Debug\Core\page navigation.exe">
+    <AppxPackagedFile Include="C:\Users\jennifer.pyle\git repos\XAML_Navigation\page navigation\bin\x86\Debug\Core\page navigation.exe">
       <PackagePath>page navigation.exe</PackagePath>
-      <Modified>2022-05-09T01:09:21.435</Modified>
+      <Modified>2022-06-10T18:15:40.882</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

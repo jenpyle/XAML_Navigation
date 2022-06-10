@@ -8159,28 +8159,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jenny\\.nuget\\packages\\": {},
+    "C:\\Users\\jennifer.pyle\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jenny\\source\\repos\\page navigation\\page navigation\\page navigation.csproj",
+      "projectUniqueName": "C:\\Users\\jennifer.pyle\\git repos\\XAML_Navigation\\page navigation\\page navigation.csproj",
       "projectName": "page navigation",
-      "projectPath": "C:\\Users\\jenny\\source\\repos\\page navigation\\page navigation\\page navigation.csproj",
-      "packagesPath": "C:\\Users\\jenny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jenny\\source\\repos\\page navigation\\page navigation\\obj\\",
+      "projectPath": "C:\\Users\\jennifer.pyle\\git repos\\XAML_Navigation\\page navigation\\page navigation.csproj",
+      "packagesPath": "C:\\Users\\jennifer.pyle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jennifer.pyle\\git repos\\XAML_Navigation\\page navigation\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\jenny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jennifer.pyle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"
